@@ -162,16 +162,16 @@
                                 <exclude reference="wvN-A4-JOR"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="M3T-P8-7X0"/>
-                                <exclude reference="k6u-Uk-tSO"/>
                                 <exclude reference="7Ha-b3-Z96"/>
                                 <exclude reference="feL-0f-k3B"/>
                                 <exclude reference="XsR-lf-sZh"/>
-                                <exclude reference="QSD-OZ-rlk"/>
                                 <exclude reference="4nF-ba-sQk"/>
                                 <exclude reference="86e-gV-6xQ"/>
                                 <exclude reference="Cej-4n-C2D"/>
                                 <exclude reference="g1P-uA-WbS"/>
+                                <exclude reference="QSD-OZ-rlk"/>
+                                <exclude reference="M3T-P8-7X0"/>
+                                <exclude reference="k6u-Uk-tSO"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -183,16 +183,16 @@
                                 <include reference="wvN-A4-JOR"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="M3T-P8-7X0"/>
-                                <include reference="k6u-Uk-tSO"/>
                                 <include reference="7Ha-b3-Z96"/>
                                 <include reference="feL-0f-k3B"/>
                                 <include reference="XsR-lf-sZh"/>
-                                <include reference="QSD-OZ-rlk"/>
                                 <include reference="4nF-ba-sQk"/>
                                 <include reference="86e-gV-6xQ"/>
                                 <include reference="Cej-4n-C2D"/>
                                 <include reference="g1P-uA-WbS"/>
+                                <include reference="QSD-OZ-rlk"/>
+                                <include reference="M3T-P8-7X0"/>
+                                <include reference="k6u-Uk-tSO"/>
                             </mask>
                         </variation>
                     </view>
