@@ -15,12 +15,9 @@ class PlaySoundsViewController: UIViewController {
     var audioEngine:AVAudioEngine!
     var audioFile:AVAudioFile!
     var receivedAudio:RecordedAudio!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
+
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
         do {
             let path = receivedAudio.filePathUrl
             try player = AVAudioPlayer(contentsOfURL: path)
@@ -33,11 +30,6 @@ class PlaySoundsViewController: UIViewController {
         audioEngine = AVAudioEngine()
         audioFile = try! AVAudioFile(forReading: receivedAudio.filePathUrl)
 
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func playSlow(sender: UIButton) {
