@@ -21,12 +21,14 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         stopButton.hidden = true
+        recordingInProgress.text = "Tap to Record"
+        recordingInProgress.hidden = false
     }
 
     @IBAction func recordAudio(sender: UIButton) {
         //todo record users voice
         stopButton.hidden = false
-        recordingInProgress.hidden = false
+        recordingInProgress.text = "Recording in Progress"
         recordButton.enabled = false
         let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
         

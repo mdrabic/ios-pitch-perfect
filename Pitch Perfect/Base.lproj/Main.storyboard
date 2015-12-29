@@ -26,12 +26,6 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9LG-Ns-CbD"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="recording" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xx0-Qa-Eli">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3h0-UB-23f" userLabel="Stop Button">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="stop"/>
@@ -39,6 +33,12 @@
                                     <action selector="stopAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H3T-cF-mLK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="recording" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xx0-Qa-Eli">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.12941176470588234" green="0.28627450980392155" blue="0.43529411764705883" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.29449949224601546" green="0.62430162936308453" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -52,8 +52,8 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="2bQ-Ok-f90"/>
-                                <exclude reference="xx0-Qa-Eli"/>
                                 <exclude reference="3h0-UB-23f"/>
+                                <exclude reference="xx0-Qa-Eli"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="5JM-oc-Kkq"/>
@@ -67,8 +67,8 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="2bQ-Ok-f90"/>
-                                <include reference="xx0-Qa-Eli"/>
                                 <include reference="3h0-UB-23f"/>
+                                <include reference="xx0-Qa-Eli"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="5JM-oc-Kkq"/>
